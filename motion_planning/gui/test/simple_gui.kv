@@ -1,0 +1,15 @@
+MDFloatLayout:
+    
+    MDRaisedButton:
+        id: start_program_btn
+        text: "Start Program"
+        pos_hint: {'center_x': 0.25, 'center_y': 0.25}
+        font_size: "45sp"
+        on_release: app.start_program(start_program_btn)
+        
+    MDRaisedButton:
+        id: ready_robot_btn
+        text: "Ready Robot"
+        pos_hint: {'center_x': 0.75, 'center_y': 0.75}
+        font_size: "45sp"
+        on_release: app.ready_robot(ready_robot_btn)

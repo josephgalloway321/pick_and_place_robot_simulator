@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Launch the file that commands the robot to the "Ready" position -->
+	<node name="ready_robot" pkg="motion_planning" type="ready_robot.py" output="screen"/>
+</launch>

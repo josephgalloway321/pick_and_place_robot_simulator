@@ -1,0 +1,60 @@
+MDFloatLayout:
+    
+    # Set the background color
+    canvas.before:
+        Color:
+            rgba: (0,0,0,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            
+    # Button to run the launch file that loads the program
+    MDRaisedButton:
+        id: start_program_btn
+        text: "Start Program"
+        width: root.width*0.3
+        height: root.height*0.1
+        pos_hint: {'center_x': 0.15, 'center_y': 0.5}
+        font_size: "45sp"
+        on_release: app.start_program(start_program_btn)
+    
+    # Button to launch file that commands the robot to the "Ready" position
+    MDRaisedButton:
+        id: ready_robot_btn
+        text: "Ready Robot"
+        width: root.width*0.3
+        height: root.height*0.1
+        pos_hint: {'center_x': 0.15, 'center_y': 0.25}
+        font_size: "45sp"
+        on_release: app.ready_robot(ready_robot_btn)
+    
+    # Button to launch the file that commands robot to pick & place the red box
+    MDRaisedButton:
+        id: pick_red_btn
+        text: "Pick Red"
+        width: root.width*0.3
+        height: root.height*0.1
+        pos_hint: {'center_x': 0.5, 'center_y': 0.75}
+        font_size: "45sp"
+        on_release: app.pick_red(pick_red_btn)
+    
+    # Button to launch the file that commands robot to pick & place the green box
+    MDRaisedButton:
+        id: pick_green_btn
+        text: "Pick Green"
+        width: root.width*0.3
+        height: root.height*0.1
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        font_size: "45sp"
+        on_release: app.pick_green(pick_green_btn)
+        
+    # Button to launch the file that commands robot to pick & place the orange box
+    MDRaisedButton:
+        id: pick_orange_btn
+        text: "Pick Orange"
+        width: root.width*0.3
+        height: root.height*0.1
+        pos_hint: {'center_x': 0.5, 'center_y': 0.25}
+        font_size: "45sp"
+        on_release: app.pick_orange(pick_orange_btn)
+
