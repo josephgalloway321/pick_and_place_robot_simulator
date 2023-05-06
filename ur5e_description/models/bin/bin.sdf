@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <model name="bin">
+    <static>true</static>
+    <link name="link">
+      <inertial>
+        <pose>0.5 -0.5 0.01 0 0 0</pose>
+        <mass>0.1</mass>
+      </inertial>
+      <collision name="collision">
+        <pose>0.5 -0.5 0.01 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <pose>0.5 -0.5 0.01 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

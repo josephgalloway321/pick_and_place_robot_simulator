@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    
+    <!-- Light Source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <!-- Obstacle Box -->
+    <!--
+    <include>
+      <uri>model://obstacle_box</uri>
+    </include>-->
+    
+    <!-- Object Box -->
+    <include>
+      <uri>model://object_box</uri>
+    </include>
+    
+    <!-- Bin -->
+    <include>
+      <uri>model://bin</uri>
+    </include>
+    
+    <!-- Object Box 2 
+    <include>
+      <uri>model://object_box2</uri>
+    </include>-->
+    
+    <!-- Bin 2 -->
+    <include>
+      <uri>model://bin2</uri>
+    </include>
+    
+    <!-- Object Box 3 
+    <include>
+      <uri>model://object_box3</uri>
+    </include>-->
+    
+    <!-- Bin 3 -->
+    <include>
+      <uri>model://bin3</uri>
+    </include>
+
+  </world>
+</sdf>

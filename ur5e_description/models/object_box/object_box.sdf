@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <model name="object_box">
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <pose>0.75 0 0 0 0 0</pose>
+        <mass>0.1</mass>
+      </inertial>
+      <collision name="collision">
+        <pose>0.75 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <pose>0.75 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
