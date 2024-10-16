@@ -1,4 +1,4 @@
-# Python Final Project
+# Pick and Place Robot Simulator
 Since the original project folder size is over 389 MB, I decided to only include the most important files that I wrote for the project. 
 Please watch the following [video](https://youtu.be/eioQrgQ-jO4) showing an overview of the project. The slideshow used in the video is also included in this repo. This is the [link](https://bitbucket.org/theconstructcore/ur_workshop/src/master/) to the Universal Robot & RGB-D sensor files.
 
