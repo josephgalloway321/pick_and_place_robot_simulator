@@ -3,7 +3,7 @@ This project was a final course project for MFG 598 Engineering Computing with P
 The goal was to create a simulated robot manipulator to autonomously pick and place colored cubes.   
 
 Since the original project folder size is over 389 MB, I decided to only include the most important files that I wrote for the project. 
-Please watch the following [video]([https://youtu.be/eioQrgQ-jO4](https://youtu.be/n7RodV7La_Q?si=GrvAHhhIhAtLIUzv)) showing an overview of the project. The slideshow used in the video is also included in this repo. This is the [link](https://bitbucket.org/theconstructcore/ur_workshop/src/master/) to the Universal Robot & RGB-D sensor files.
+Please watch the following [video](https://youtu.be/n7RodV7La_Q?si=BEohMkQgAHpVznBQ) showing an overview of the project. The slideshow used in the video is also included in this repo. This is the [link](https://bitbucket.org/theconstructcore/ur_workshop/src/master/) to the Universal Robot & RGB-D sensor files.
 
 # File Structure
 The following is the order of the files executed when running the program (which is demonstrated in the video above):
